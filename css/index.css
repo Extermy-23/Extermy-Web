@@ -226,15 +226,37 @@
   
   
   footer h2{
-    
-    font-size: 1.5em;
-    text-decoration:underline;
-    
-  }
   
-  footer ul {
-    
-     display: flex;
-     justify-content:space-around;
-    
-  }
+  font-size: 1.5em;
+  text-decoration:underline;
+  
+}
+
+footer ul {
+  
+   display: flex;
+   justify-content: space-around; 
+   
+}
+
+footer ul li {
+   
+   width:5%;
+   height:60px;
+   margin-top:50px;
+  
+}
+
+footer ul li img{
+  
+   box-sizing: content-box;
+   width: 100%;
+   heigth:100%;
+  
+}
+
+.paypal {
+  
+   width:180%;
+   
+}
